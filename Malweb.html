@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Schare youre drawings</title>
+</head>
+<body>
+    <div id="malen"></div>
+    <a href="index.html">Back to form</a>
+    <script>
+        const resultlist = document.getElementById('results')
+    new URLSearchParams(window.location.search).forEach((value,name) => {
+        resultlist.append(`$.{name}: ${value}`)
+        resultlist.append(document.createElement('br'))
+    })
+    </script>
+</body>
+</html>
