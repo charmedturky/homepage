@@ -1,22 +1,189 @@
-<!DOCTYPE html>
+<style>
+    #title {
+        color: white;
+        background-color: rgb(66, 10, 66);
+        font-size: 1em;
+        font-family: 'Sriracha', cursive;
+        padding-bottom: 200px;
+        margin-right: 1100px;
+        padding-top: 20px;
+        text-align: left;
+        border-bottom-right-radius: 50px;
+        position: relative;
+        border-bottom-right-radius: 30px;
+    }
+
+    #art img {
+        position: absolute;
+        height: 260px;
+        top: 100px;
+        left: 650px;
+        transform: skewX(10deg);
+        width: 230px;
+    }
+
+    #lernen p{
+        color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    font-size: 1.5em;
+    font-family: 'Sriracha', cursive;
+    border-radius: 10px;
+    position: absolute;
+    top: 135px;
+    left: 590px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    #kurs p{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    font-size: 1.5em;
+    font-family: 'Sriracha', cursive;
+    border-radius: 10px;
+    position: absolute;
+    top: 210px;
+    left: 590px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-left: 15px;
+    padding-right: 100px;
+    }
+
+    #bilder p{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    font-size: 1.5em;
+    font-family: 'Sriracha', cursive;
+    border-radius: 10px;
+    position: absolute;
+    top: 285px;
+    left: 590px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-left: 15px;
+    padding-right: 67px;
+    }
+
+#login a{
+    color:  black;
+    font-family: 'Sriracha', cursive;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    padding-right:50px;
+    padding-left:50px;
+    font-size: 1.5em;
+    
+}
+
+.h1{
+    font-size: 1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    top:420px
+}
+
+
+.cool{
+    top:40px;
+    right: 600px;
+    font-size: 1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+}
+
+.z1 img{
+    height: 260px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    right: 790px;
+} 
+.z2 img{
+    height: 280px;
+    width: 230px;
+    position: absolute;
+    top: 150px;
+    right: 480px;
+} 
+.v img{
+    height: 280px;
+    width: 230px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+} 
+
+</style>
+
 
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=device-widht,
     initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Schare youre drawings</title>
+    <title>Lerne zu malen</title>
 </head>
+
 <body>
-    <div id="malen"></div>
-    <a href="index.html">Back to form</a>
-    <script>
+
+    <div id="title">
+        <h1>Lerne gut zu malen, lade deinen eigenen kurs hoch, und teile deine bilder</h1>
+    <div id="art">
+        <image src="images.jpeg" alt="kunstwerk">
+    </div>
+</div>
+    
+<div id="lernen">
+        <p>Gut malen lernen</p>
+    </div>
+    
+
+    <div id="kurs">
+        <p>Dein Kurs</p>
+    </div>
+    <div id="bilder">
+        <p>Bilder teilen</p>
+    </div>
+
+    <div id="login">
+   <a href="index.html">Einllogen</a>
+</div>
+<div class="h1">
+     <h1>Ein Klick und du lernst gut zu malen</h1>
+</div>
+
+<div class="cool">
+<h1>Coole Zeichnungen</h1>
+</div>
+<div class="z1">
+<img src="download (2).jpeg" alt="">
+</div>
+<div class="z2">
+    <img src="download (1).jpeg" alt="">
+</div>
+<div class="v">
+    <img src="venom.jpg" alt="">    
+</div>
+
+<p>Egal wie gut du bist, teile deine bilder</p>
+
+<script>
         const resultlist = document.getElementById('results')
-    new URLSearchParams(window.location.search).forEach((value,name) => {
-        resultlist.append(`$.{name}: ${value}`)
-        resultlist.append(document.createElement('br'))
-    })
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            resultlist.append(`$.{name}: ${value}`)
+            resultlist.append(document.createElement('br'))
+        })
     </script>
 </body>
+
 </html>
