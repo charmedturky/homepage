@@ -1,0 +1,60 @@
+
+
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Lerne zu malen</title>
+    <script type="text/javascript">
+        console.debug("Loaded")
+
+        function hello() {
+            let paps = document.getElementById("inputName")
+            let name = paps.value
+            console.debug("hallo", name, paps)
+            paps.className="lala"
+            
+            if (name === "Bernardo") {
+                console.debug("Moin Bernardo") 
+                paps.className="h1"
+            } else {
+                paps.className="h2"
+            }
+        }
+
+        
+    </script>
+<style>
+
+    .h1{
+    color: blue;  
+    }
+    .h2{
+    color: red;  
+    }
+
+</style>
+
+
+</head>
+
+<body>
+
+<input type="text" id="inputName">
+<button onclick="hello()">Click hier</button>
+
+
+
+
+
+
+</body>
+
+</html>
