@@ -104,35 +104,38 @@ body {
         width:100%;
         font-family: 'Courgette', cursive;
         font-size:3em;
-        text-align:center;
+        left: 885px;
         transform:translate ;
         color:#fff;
         transform:translateY (-50%);
     }
     
     .input1 input{
-        
-        height: 40px;
-        width: 40%;
+        border: 2px solid #3498db;
+
+        height: 60px;
+        width: 30%;
         color: white;
-        background-color: rgba(90, 90, 90, 0.74);
+        margin-left: 55px;
         margin-bottom: 15px;
     }
     
     .input2 input{
-        
-        height: 40px;
-        width: 40%;
+        border: 2px solid #1760ce;
+
+        height: 60px;
+        width: 30%;
         color: white;
-        background-color: rgba(90, 90, 90, 0.74);
-        margin-bottom: 30px;
+        margin-left: 55px;
+        margin-bottom: 15px;
        
     }
+
 
 .input ::placeholder{
     font-size: 25px;
     color: rgba(255, 255, 255, 0.884);
-    
+    text-align: center;
     
 }
 
@@ -146,10 +149,35 @@ body {
     }
 
 .button button{
-height: 40px;
+height: 50px;
 width: 15%;
 font-size: 25px;
-background-color: rgba(90, 90, 90, 0.74);
 color: white;
+text-align: center;
+margin-left: 140px;
+background: none;
+border: 2px solid #e733f7;
+border-radius: 24px;
 
+}
+
+.input1 input, .input2 input{
+background: none;
+
+padding:14px 10px;
+outline: none;
+border-radius: 24px;
+transition: 0.25;
+}
+
+.input1 input:focus, .input2 input:focus{
+    width: 40%;
+    margin-left: -10px;
+    border-color: #e733f7;
+}
+
+.input2 input:focus{
+    width: 40%;
+    margin-left: -10px;
+    
 }
