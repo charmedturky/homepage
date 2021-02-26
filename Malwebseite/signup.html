@@ -1,0 +1,263 @@
+<style>
+body {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+    }
+    section{
+    height:100%;
+    width:100%;
+    position: absolute;     background:radial-gradient(#333,#000);
+    }
+    .leaf{
+        position: relative; 
+        width:100%;
+        height:100%;
+        margin-top:0;
+        margin-left:0;
+    }
+    .leaf div{
+        position: relative; 
+    display:block ;
+    }
+    .leaf div:nth-child(1){
+        margin-left:20%; 
+        animation:fall 15s linear infinite ;
+        animation-delay:-2s;
+        position: relative; 
+        margin-top: 0;
+    }
+    .leaf div:nth-child(2){
+        margin-left:70%; 
+        animation:fall 15s linear infinite ;
+        animation-delay:-4s;
+        position: relative; 
+        margin-top: 0;
+    }
+    .leaf div:nth-child(3){
+        margin-left:10%; 
+        animation:fall 20s linear infinite ;
+        animation-delay:-7s;
+        position: relative;   
+        margin-top: 0;
+
+    }
+    .leaf div:nth-child(4){
+        margin-left:50%; 
+       animation:fall 18s linear infinite ; 
+       animation-delay:-5s;
+       margin-top: 0;
+    }
+    .leaf div:nth-child(5){
+        margin-left:85%; 
+        animation:fall 14s linear infinite ;
+        animation-delay:-5s;
+        margin-top: 0;
+    }
+    .leaf div:nth-child(6){
+        left:15%; 
+        animation:fall 16s linear infinite ;
+        animation-delay:-10s;
+        margin-top: 0;
+    }
+    .leaf div:nth-child(7){
+        margin-left:90%; 
+        animation:fall 15s linear infinite ;
+        animation-delay:-4s;
+        margin-top: 0;
+    }
+    
+    @keyframes fall{
+        0%{
+            opacity:1;
+            top:0%;
+            transform:translateX (20px) rotate(0deg);
+        }
+        20%{
+            opacity:0.8;
+            transform:translateX (-20px) rotate(45deg);
+        }
+        40%{
+    
+            transform:translateX (-20px) rotate(90deg);
+        }
+        60%{
+            
+           transform:translateX (-20px) rotate(135deg); 
+        }
+        80%{
+        
+            transform:translateX (-20px) rotate(180deg);
+        }
+        100%{
+            
+            top:-110%;
+            transform:translateX (-20px) rotate(225deg);
+        }
+        }
+    .leaf1{
+        transform: rotateX(180deg);
+    }
+    h2{
+        position:absolute ;
+        top:15%;
+        width:100%;
+        font-family: 'Courgette', cursive;
+        font-size:3em;
+        left: 850px;
+        transform:translate ;
+        color:#fff;
+        transform:translateY (-50%);
+    }
+    
+    .input1 input{
+        border: 2px solid #3498db;
+
+        height: 60px;
+        width: 30%;
+        color: white;
+        margin-left: 55px;
+        margin-bottom: 15px;
+    }
+    
+    .input2 input{
+        border: 2px solid #1760ce;
+
+        height: 60px;
+        width: 30%;
+        color: white;
+        margin-left: 55px;
+        margin-bottom: 15px;
+       
+    }
+
+
+.input ::placeholder{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.884);
+    text-align: center;
+    
+}
+
+.input{
+    
+    margin-top:300px;
+    margin-left: 705px;
+    list-style: none;
+    color: white;
+    
+    }
+
+.button button{
+height: 50px;
+width: 15%;
+font-size: 25px;
+color: white;
+text-align: center;
+margin-left: 140px;
+background: none;
+border: 2px solid #e733f7;
+border-radius: 24px;
+
+}
+
+.input1 input, .input2 input{
+background: none;
+
+padding:14px 10px;
+outline: none;
+border-radius: 24px;
+transition: 0.25;
+}
+
+.input1 input:focus, .input2 input:focus{
+    width: 40%;
+    margin-left: -10px;
+    border-color: #e733f7;
+}
+
+.input2 input:focus{
+    width: 40%;
+    margin-left: -10px;
+    
+}
+.wrapper { position: relative; }
+.rocket {
+   position: absolute; 
+   left: -200px;
+   transition: left 3s 3s;	
+}
+
+.slideright {
+   left: 70%;
+}
+
+</style>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-widht, initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+
+
+
+        <title>
+            Sign Up 
+			</title>
+			<link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        
+    <section >
+        
+      <h2>Sign Up</h2>
+<form action="index.html" method="GET">
+      <div class="input">
+      
+       <div class="input1"> <input type="text" placeholder="Username" required></div>
+      <div class="input2"> <input  type="password" placeholder="Passwort" required></div> 
+        <div class="button"> <button type="submit">Sign Up</button> </div>
+</div>
+
+</form>
+  </div>
+     <div class="leaf">
+     <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></div>
+            
+     </div>
+     
+     <div class="leaf leaf1">
+     <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></div>
+            
+     </div>
+     
+     <div class="leaf leaf2">
+     <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></div>
+            
+     </div>
+     </section>
+     
+
+    </body>
+</html>
