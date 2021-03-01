@@ -25,5 +25,3 @@ while True:
     if message.strip()=='Bye':
         print('Luisa: Bye')
         break    
-
-    

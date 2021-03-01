@@ -85,6 +85,13 @@ try:
         subprocess.call(
     ["/usr/bin/open", "-W", "-n", "-a", "/Applications/TextEdit.app"]
     )
+    if "open my portuguese lesson of monday" in command:
+         webbrowser.open_new("https://us04web.zoom.us/j/77064948232?pwd=VVFtME1Ld1VvaW8xQnhoRDIxTUpKdz09")
+    if "open my portuguese lesson of tuesday" in command:
+         webbrowser.open_new("https://us04web.zoom.us/j/79606340052?pwd=MWJRQlFVYWJ4bG1vVXY5dmNpa1oxdz09")
+    if "open my portuguese lesson of thursday" in command:
+         webbrowser.open_new("https://us04web.zoom.us/j/71128583022?pwd=ZGFMMlJ0ZTNMMXcrOTh1dC8wQ1htZz09")
+
 except:
 
     pass
