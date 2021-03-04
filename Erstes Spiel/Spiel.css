@@ -1,0 +1,14 @@
+body{
+    background-color: #00aee3 ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 500%;
+
+}
+
+#canvas{
+   margin: 0;
+   padding: 0;
+
+}
