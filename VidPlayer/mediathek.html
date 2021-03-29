@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidPlayer</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <div class="lupe">
+    <img src="lupe.png" alt="">
+    </div>
+    <div class="videoadden">
+        <a href="video.html">+</a>
+    </div>
+    <div class="profile">
+        <a href="Anmelde buttuon.html"><img src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg" alt=""></a><img src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg" alt="">
+    </div>
+    <div class="logo">
+        <img src="logo_large.png" alt="">
+    </div>
+    <div class="Start">
+        <p>Start</p>
+    </div>
+    <div class="Abos">
+       <a href="abos.html">Abos</a>
+    </div>
+    <div class="Entdecken">
+        <a href="entdecken.html">Entdecken</a>
+    </div>
+    <div class="Mediathek">
+      <a href="mediathek.html">Mediathek</a>
+    </div>
+    <div class="kürzlich">
+        <p>Kürzlich angesehen</p>
+    </div>
+    <div class="Verlauf">
+        <p>Verlauf</p>
+    </div>
+    <div class="MeineVideos">
+        <p>Meine Videos</p>
+    </div>
+    <div class="SpäterAnsehen">
+        <p>Später ansehen</p>
+    </div>
+</body>
+</html>
+
+<style>
+
+    .search input{
+        width: 60%;
+        top: 0px;
+        left: 50px;
+        border: rgb(89, 89, 89) 1px solid;
+        height: 15px;
+        box-shadow: 10px;
+        color: rgb(89, 89, 89);
+        position: absolute;
+    }
+    .search ::placeholder{
+        font-size: 15px;
+        text-align: center;
+        color: rgb(89, 89, 89);
+    }
+    
+    .search :focus{
+        text-align: center;
+    }
+    .search :hover{
+        border: rgb(89, 89, 89) 1px solid;
+    }
+
+
+    .lupe img{
+        height: 30px;
+        width: 30px;
+        top:5px;
+        position: absolute;
+        left: 220px;
+        transform: rotate(340deg);
+    }
+    .profile img{
+        height: 33px;
+        width: 33px;
+        position: absolute;
+        top: 3px;
+        right: 0;
+    }
+    .videoadden a{
+        padding: 0px 10px 0px 10px;
+        border-radius: 1090px;
+        margin: 0px 0px 0px 0px ;
+        font-size: 30px;
+        position: absolute;
+        bottom:0px;
+        left: 116px;
+        color: rgba(0, 0, 0, 0.707);
+        border-left: rgb(28, 28, 28) 2px solid;
+        border-right: rgb(3, 70, 240) 2px solid;
+        text-decoration: none;
+    }
+    .logo img {
+        position: absolute;
+        height: 30px;
+        width: 115px;
+        top: 0;
+
+    }
+    .Mediathek a{
+        padding: 0px 10px 0px 10px;
+        border-radius: 1090px;
+        margin: 0px 0px 0px 0px ;
+        font-size: 13px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        color: rgba(0, 0, 0, 0.83);
+        text-decoration: none;
+    }
+
+    .Abos a{
+        padding: 0px 10px 0px 10px;
+        border-radius: 1090px;
+        margin: 0px 0px 0px 0px ;
+        font-size: 13px;
+        position: absolute;
+        bottom: 0px;
+        right: 65px;
+        color: rgba(0, 0, 0, 0.83);
+        text-decoration: none;
+
+    }
+    .Entdecken a{
+        padding: 0px 10px 0px 10px;
+        border-radius: 1090px;
+        margin: 0px 0px 0px 0px ;
+        font-size: 13px;
+        position: absolute;
+        bottom: 0px;
+        right: 165px;
+        color: rgba(0, 0, 0, 0.83);
+        text-decoration: none;
+    }
+
+    .Start p{
+        padding: 0px 10px 0px 10px;
+        border-radius: 1090px;
+        margin: 0px 0px 0px 0px ;
+        font-size: 13px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        color: rgba(0, 0, 0, 0.83);
+        text-decoration: none;
+    }
+    .videouploaden a{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        color: black;
+        padding: 50px 95px 60px 60px;
+        margin: 0px;
+        border-radius: 30px 30px 0px 0px;
+        }
+    .videouploaden img{
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        }
+    .videouploaden p{
+        position: absolute;
+        bottom: 80px;
+        left: 15px;
+        font-size: 25px;
+    }
+    .Live a{
+        position: absolute;
+        bottom: 20px;
+        left: 60px;
+        text-decoration: none;
+        color: black;
+    }
+    
+</style>

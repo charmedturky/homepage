@@ -23,7 +23,7 @@ try:
         print(command)
 
     if "play music" in command:
-       webbrowser.open_new("https://www.youtube.com/watch?v=nqggm9o2Z9k&list=PLudsWki_g-JUCAr_X6cRtdY4WycZ88tvn")
+       webbrowser.open_new("https://www.youtube.com/watch?v=YRNyamyBOIQ&list=PLudsWki_g-JUCAr_X6cRtdY4WycZ88tvn&index=1")
          
     elif "time" in command:
         time = datetime.datetime.now().strftime("%H:%M")
